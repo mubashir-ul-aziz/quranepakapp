@@ -1,0 +1,505 @@
+{
+"ayats": [
+{
+
+  "id":"73",
+    "surah": "Surah Al-Muzzammil",
+    "ayat": [
+        {
+            "ayat_no": 1,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "يَا أَيُّهَا الْمُزَّمِّلُ",
+            "translation_urdu": "اے کپڑے میں لپٹنے والے",
+            "word_by_word_translation": [
+                {"arabic": "يَا", "urdu": "اے"},
+                {"arabic": "أَيُّهَا", "urdu": "اے"},
+                {"arabic": "الْمُزَّمِّلُ", "urdu": "کپڑے میں لپٹنے والے"}
+            ]
+        },
+        {
+            "ayat_no": 2,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "قُمِ اللَّيْلَ إِلَّا قَلِيلًا",
+            "translation_urdu": "رات میں قیام کیجیے مگر تھوڑا سا۔",
+            "word_by_word_translation": [
+                {"arabic": "قُمِ", "urdu": "قیام کیجیے"},
+                {"arabic": "اللَّيْلَ", "urdu": "رات میں"},
+                {"arabic": "إِلَّا", "urdu": "مگر"},
+                {"arabic": "قَلِيلًا", "urdu": "تھوڑا سا"}
+            ]
+        },
+        {
+            "ayat_no": 3,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "نِصْفَهُ أَوِ انقُصْ مِنْهُ قَلِيلًا",
+            "translation_urdu": "رات کا نصف (حصہ) یا اس سے کچھ کم کیجیے۔",
+            "word_by_word_translation": [
+                {"arabic": "نِصْفَهُ", "urdu": "رات کا نصف"},
+                {"arabic": "أَوِ", "urdu": "یا"},
+                {"arabic": "انقُصْ", "urdu": "کم کیجیے"},
+                {"arabic": "مِنْهُ", "urdu": "اس سے"},
+                {"arabic": "قَلِيلًا", "urdu": "کچھ کم"}
+            ]
+        },
+        {
+            "ayat_no": 4,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "أوِ زِدْ عَلَيْهِ وَ رَتِّلِ الْقُرْآنَ تَرْتِيلًا",
+            "translation_urdu": "یا اس میں اضافہ کیجیے اور قرآن کو ٹھہر ٹھہر کر پڑھئیے۔",
+            "word_by_word_translation": [
+                {"arabic": "أوِ", "urdu": "یا"},
+                {"arabic": "زِدْ", "urdu": "زیادہ کیجیے"},
+                {"arabic": "عَلَيْهِ", "urdu": "اس میں"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "رَتِّلِ", "urdu": "ٹھہر ٹھہر کر"},
+                {"arabic": "الْقُرْآنَ", "urdu": "قرآن"},
+                {"arabic": "تَرْتِيلًا", "urdu": "پڑھئیے"}
+            ]
+        },
+        {
+            "ayat_no": 5,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "إِنَّا سَنُلْقِي عَلَيْكَ قَوْلًا ثَقِيلًا",
+            "translation_urdu": "بیشک ہم آپ پر ایک بھاری کلام القا کریں گے۔",
+            "word_by_word_translation": [
+                {"arabic": "إِنَّا", "urdu": "بیشک ہم"},
+                {"arabic": "سَنُلْقِي", "urdu": "آپ پر"},
+                {"arabic": "عَلَيْكَ", "urdu": "ایک"},
+                {"arabic": "قَوْلًا", "urdu": "بھاری کلام"},
+                {"arabic": "ثَقِيلًا", "urdu": "القا کریں گے"}
+            ]
+        },
+        {
+            "ayat_no": 6,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "إِنَّ نَاشِئَةَ اللَّيْلِ هِيَ أَشَدُّ وَطًأً",
+            "translation_urdu": "بیشک رات کے اٹھنے کی حالت زیادہ مؤثر ہے۔",
+            "word_by_word_translation": [
+                {"arabic": "إِنَّ", "urdu": "بیشک"},
+                {"arabic": "نَاشِئَةَ", "urdu": "رات کے"},
+                {"arabic": "اللَّيْلِ", "urdu": "اٹھنے کی"},
+                {"arabic": "هِيَ", "urdu": "حالت"},
+                {"arabic": "أَشَدُّ", "urdu": "زیادہ"},
+                {"arabic": "وَطًأً", "urdu": "مؤثر ہے"}
+            ]
+        },
+        {
+            "ayat_no": 7,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ أَقْوَمُ قِيلًا",
+            "translation_urdu": "اور زیادہ درست بات کرنے والی ہے۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "أَقْوَمُ", "urdu": "زیادہ درست"},
+                {"arabic": "قِيلًا", "urdu": "بات کرنے والی"}
+            ]
+        },
+        {
+            "ayat_no": 8,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "إِنَّ لَكَ فِي النَّهَارِ سَبْحًا طَوِيلًا",
+            "translation_urdu": "بیشک آپ کے لیے دن میں بڑی مصروفیت ہے۔",
+            "word_by_word_translation": [
+                {"arabic": "إِنَّ", "urdu": "بیشک"},
+                {"arabic": "لَكَ", "urdu": "آپ کے لیے"},
+                {"arabic": "فِي", "urdu": "دن میں"},
+                {"arabic": "النَّهَارِ", "urdu": "بڑی مصروفیت"},
+                {"arabic": "سَبْحًا", "urdu": "ہے"}
+            ]
+        },
+        {
+            "ayat_no": 9,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ اذْكُرِ اسْمَ رَبِّكَ وَ تَبَتَّلْ إِلَيْهِ تَبْتِيلًا",
+            "translation_urdu": "اور اپنے رب کا نام یاد کیجیے اور پوری طرح اسی کی طرف متوجہ ہو جائیے۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "اذْكُرِ", "urdu": "یاد کیجیے"},
+                {"arabic": "اسْمَ", "urdu": "کا نام"},
+                {"arabic": "رَبِّكَ", "urdu": "اپنے رب"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "تَبَتَّلْ", "urdu": "پوری طرح متوجہ"},
+                {"arabic": "إِلَيْهِ", "urdu": "اسی کی طرف"},
+                {"arabic": "تَبْتِيلًا", "urdu": "ہو جائیے"}
+            ]
+        },
+        {
+            "ayat_no": 10,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "رَبِّ الْمَشْرِقِ وَ الْمَغْرِبِ",
+            "translation_urdu": "وہ رب مشرق اور مغرب کا ہے۔",
+            "word_by_word_translation": [
+                {"arabic": "رَبِّ", "urdu": "وہ رب"},
+                {"arabic": "الْمَشْرِقِ", "urdu": "مشرق"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "الْمَغْرِبِ", "urdu": "مغرب کا ہے"}
+            ]
+        },
+        {
+            "ayat_no": 11,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "لَا إِلَٰهَ إِلَّا هُوَ فَاتَّخِذْهُ وَكِيلًا",
+            "translation_urdu": "نہیں کوئی معبود سوائے اس کے، سو اس کو کارساز بنا لیجیے۔",
+            "word_by_word_translation": [
+                {"arabic": "لَا", "urdu": "نہیں"},
+                {"arabic": "إِلَٰهَ", "urdu": "کوئی معبود"},
+                {"arabic": "إِلَّا", "urdu": "سوائے"},
+                {"arabic": "هُوَ", "urdu": "اس کے"},
+                {"arabic": "فَاتَّخِذْهُ", "urdu": "سو اس کو"},
+                {"arabic": "وَكِيلًا", "urdu": "کارساز بنا لیجیے"}
+            ]
+        },
+        {
+            "ayat_no": 12,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ اصْبِرْ عَلَى مَا يَقُولُونَ",
+            "translation_urdu": "اور جو کچھ وہ کہتے ہیں اس پر صبر کیجیے۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "اصْبِرْ", "urdu": "صبر کیجیے"},
+                {"arabic": "عَلَى", "urdu": "پر"},
+                {"arabic": "مَا", "urdu": "جو کچھ"},
+                {"arabic": "يَقُولُونَ", "urdu": "وہ کہتے ہیں"}
+            ]
+        },
+        {
+            "ayat_no": 13,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ اهْجُرْهُمْ هَجْرًا جَمِيلًا",
+            "translation_urdu": "اور ان سے خوبصورت انداز میں کنارہ کشی کیجیے۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "اهْجُرْهُمْ", "urdu": "ان سے کنارہ کشی کیجیے"},
+                {"arabic": "هَجْرًا", "urdu": "خوبصورت انداز میں"},
+                {"arabic": "جَمِيلًا", "urdu": ""}
+            ]
+        },
+        {
+            "ayat_no": 14,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ ذَرْنِي وَ الْمُكَذِّبِينَ",
+            "translation_urdu": "اور مجھے جھٹلانے والوں کے لیے چھوڑ دو۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "ذَرْنِي", "urdu": "مجھے چھوڑ دو"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "الْمُكَذِّبِينَ", "urdu": "جھٹلانے والوں کے لیے"}
+            ]
+        },
+        {
+            "ayat_no": 15,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "أُو۟لِي النِّعْمَةِ",
+            "translation_urdu": "وہ خوشحالی والے لوگ ہیں۔",
+            "word_by_word_translation": [
+                {"arabic": "أُو۟لِي", "urdu": "وہ"},
+                {"arabic": "النِّعْمَةِ", "urdu": "خوشحالی والے لوگ ہیں"}
+            ]
+        },
+        {
+            "ayat_no": 16,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "ذَرْنِي وَ الْمُكَذِّبِينَ",
+            "translation_urdu": "مجھے چھوڑ دو، جھٹلانے والوں کے لیے۔",
+            "word_by_word_translation": [
+                {"arabic": "ذَرْنِي", "urdu": "مجھے چھوڑ دو"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "الْمُكَذِّبِينَ", "urdu": "جھٹلانے والوں کے لیے"}
+            ]
+        },
+        {
+            "ayat_no": 17,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "أُو۟لِي النِّعْمَةِ",
+            "translation_urdu": "خوشحالی والے لوگ ہیں۔",
+            "word_by_word_translation": [
+                {"arabic": "أُو۟لِي", "urdu": "وہ"},
+                {"arabic": "النِّعْمَةِ", "urdu": "خوشحالی والے لوگ ہیں"}
+            ]
+        },
+        {
+            "ayat_no": 18,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ أَنَا أَصْبِرُ عَلَيْكَ",
+            "translation_urdu": "اور میں تم پر صبر کروں گا۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "أَنَا", "urdu": "میں"},
+                {"arabic": "أَصْبِرُ", "urdu": "صبر کروں گا"},
+                {"arabic": "عَلَيْكَ", "urdu": "تم پر"}
+            ]
+        },
+        {
+            "ayat_no": 19,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "فَذُوقُوا۟",
+            "translation_urdu": "تو چکھو۔",
+            "word_by_word_translation": [
+                {"arabic": "فَذُوقُوا۟", "urdu": "تو چکھو"}
+            ]
+        },
+        {
+            "ayat_no": 20,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "مَسَّةٌ مِنْهُمْ",
+            "translation_urdu": "یہ ان پر چوٹ ہوگی۔",
+            "word_by_word_translation": [
+                {"arabic": "مَسَّةٌ", "urdu": "یہ چوٹ ہوگی"},
+                {"arabic": "مِنْهُمْ", "urdu": "ان پر"}
+            ]
+        }
+    ]
+},
+{
+
+  "id":"71",
+    "surah": "Surah Nuh",
+    "ayat": [
+        {
+            "ayat_no": 1,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "يَا أَيُّهَا الْمُزَّمِّلُ",
+            "translation_urdu": "اے کپڑے میں لپٹنے والے",
+            "word_by_word_translation": [
+                {"arabic": "يَا", "urdu": "اے"},
+                {"arabic": "أَيُّهَا", "urdu": "اے"},
+                {"arabic": "الْمُزَّمِّلُ", "urdu": "کپڑے میں لپٹنے والے"}
+            ]
+        },
+        {
+            "ayat_no": 2,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "قُمِ اللَّيْلَ إِلَّا قَلِيلًا",
+            "translation_urdu": "رات میں قیام کیجیے مگر تھوڑا سا۔",
+            "word_by_word_translation": [
+                {"arabic": "قُمِ", "urdu": "قیام کیجیے"},
+                {"arabic": "اللَّيْلَ", "urdu": "رات میں"},
+                {"arabic": "إِلَّا", "urdu": "مگر"},
+                {"arabic": "قَلِيلًا", "urdu": "تھوڑا سا"}
+            ]
+        },
+        {
+            "ayat_no": 3,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "نِصْفَهُ أَوِ انقُصْ مِنْهُ قَلِيلًا",
+            "translation_urdu": "رات کا نصف (حصہ) یا اس سے کچھ کم کیجیے۔",
+            "word_by_word_translation": [
+                {"arabic": "نِصْفَهُ", "urdu": "رات کا نصف"},
+                {"arabic": "أَوِ", "urdu": "یا"},
+                {"arabic": "انقُصْ", "urdu": "کم کیجیے"},
+                {"arabic": "مِنْهُ", "urdu": "اس سے"},
+                {"arabic": "قَلِيلًا", "urdu": "کچھ کم"}
+            ]
+        },
+        {
+            "ayat_no": 4,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "أوِ زِدْ عَلَيْهِ وَ رَتِّلِ الْقُرْآنَ تَرْتِيلًا",
+            "translation_urdu": "یا اس میں اضافہ کیجیے اور قرآن کو ٹھہر ٹھہر کر پڑھئیے۔",
+            "word_by_word_translation": [
+                {"arabic": "أوِ", "urdu": "یا"},
+                {"arabic": "زِدْ", "urdu": "زیادہ کیجیے"},
+                {"arabic": "عَلَيْهِ", "urdu": "اس میں"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "رَتِّلِ", "urdu": "ٹھہر ٹھہر کر"},
+                {"arabic": "الْقُرْآنَ", "urdu": "قرآن"},
+                {"arabic": "تَرْتِيلًا", "urdu": "پڑھئیے"}
+            ]
+        },
+        {
+            "ayat_no": 5,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "إِنَّا سَنُلْقِي عَلَيْكَ قَوْلًا ثَقِيلًا",
+            "translation_urdu": "بیشک ہم آپ پر ایک بھاری کلام القا کریں گے۔",
+            "word_by_word_translation": [
+                {"arabic": "إِنَّا", "urdu": "بیشک ہم"},
+                {"arabic": "سَنُلْقِي", "urdu": "آپ پر"},
+                {"arabic": "عَلَيْكَ", "urdu": "ایک"},
+                {"arabic": "قَوْلًا", "urdu": "بھاری کلام"},
+                {"arabic": "ثَقِيلًا", "urdu": "القا کریں گے"}
+            ]
+        },
+        {
+            "ayat_no": 6,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "إِنَّ نَاشِئَةَ اللَّيْلِ هِيَ أَشَدُّ وَطًأً",
+            "translation_urdu": "بیشک رات کے اٹھنے کی حالت زیادہ مؤثر ہے۔",
+            "word_by_word_translation": [
+                {"arabic": "إِنَّ", "urdu": "بیشک"},
+                {"arabic": "نَاشِئَةَ", "urdu": "رات کے"},
+                {"arabic": "اللَّيْلِ", "urdu": "اٹھنے کی"},
+                {"arabic": "هِيَ", "urdu": "حالت"},
+                {"arabic": "أَشَدُّ", "urdu": "زیادہ"},
+                {"arabic": "وَطًأً", "urdu": "مؤثر ہے"}
+            ]
+        },
+        {
+            "ayat_no": 7,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ أَقْوَمُ قِيلًا",
+            "translation_urdu": "اور زیادہ درست بات کرنے والی ہے۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "أَقْوَمُ", "urdu": "زیادہ درست"},
+                {"arabic": "قِيلًا", "urdu": "بات کرنے والی"}
+            ]
+        },
+        {
+            "ayat_no": 8,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "إِنَّ لَكَ فِي النَّهَارِ سَبْحًا طَوِيلًا",
+            "translation_urdu": "بیشک آپ کے لیے دن میں بڑی مصروفیت ہے۔",
+            "word_by_word_translation": [
+                {"arabic": "إِنَّ", "urdu": "بیشک"},
+                {"arabic": "لَكَ", "urdu": "آپ کے لیے"},
+                {"arabic": "فِي", "urdu": "دن میں"},
+                {"arabic": "النَّهَارِ", "urdu": "بڑی مصروفیت"},
+                {"arabic": "سَبْحًا", "urdu": "ہے"}
+            ]
+        },
+        {
+            "ayat_no": 9,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ اذْكُرِ اسْمَ رَبِّكَ وَ تَبَتَّلْ إِلَيْهِ تَبْتِيلًا",
+            "translation_urdu": "اور اپنے رب کا نام یاد کیجیے اور پوری طرح اسی کی طرف متوجہ ہو جائیے۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "اذْكُرِ", "urdu": "یاد کیجیے"},
+                {"arabic": "اسْمَ", "urdu": "کا نام"},
+                {"arabic": "رَبِّكَ", "urdu": "اپنے رب"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "تَبَتَّلْ", "urdu": "پوری طرح متوجہ"},
+                {"arabic": "إِلَيْهِ", "urdu": "اسی کی طرف"},
+                {"arabic": "تَبْتِيلًا", "urdu": "ہو جائیے"}
+            ]
+        },
+        {
+            "ayat_no": 10,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "رَبِّ الْمَشْرِقِ وَ الْمَغْرِبِ",
+            "translation_urdu": "وہ رب مشرق اور مغرب کا ہے۔",
+            "word_by_word_translation": [
+                {"arabic": "رَبِّ", "urdu": "وہ رب"},
+                {"arabic": "الْمَشْرِقِ", "urdu": "مشرق"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "الْمَغْرِبِ", "urdu": "مغرب کا ہے"}
+            ]
+        },
+        {
+            "ayat_no": 11,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "لَا إِلَٰهَ إِلَّا هُوَ فَاتَّخِذْهُ وَكِيلًا",
+            "translation_urdu": "نہیں کوئی معبود سوائے اس کے، سو اس کو کارساز بنا لیجیے۔",
+            "word_by_word_translation": [
+                {"arabic": "لَا", "urdu": "نہیں"},
+                {"arabic": "إِلَٰهَ", "urdu": "کوئی معبود"},
+                {"arabic": "إِلَّا", "urdu": "سوائے"},
+                {"arabic": "هُوَ", "urdu": "اس کے"},
+                {"arabic": "فَاتَّخِذْهُ", "urdu": "سو اس کو"},
+                {"arabic": "وَكِيلًا", "urdu": "کارساز بنا لیجیے"}
+            ]
+        },
+        {
+            "ayat_no": 12,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ اصْبِرْ عَلَى مَا يَقُولُونَ",
+            "translation_urdu": "اور جو کچھ وہ کہتے ہیں اس پر صبر کیجیے۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "اصْبِرْ", "urdu": "صبر کیجیے"},
+                {"arabic": "عَلَى", "urdu": "پر"},
+                {"arabic": "مَا", "urdu": "جو کچھ"},
+                {"arabic": "يَقُولُونَ", "urdu": "وہ کہتے ہیں"}
+            ]
+        },
+        {
+            "ayat_no": 13,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ اهْجُرْهُمْ هَجْرًا جَمِيلًا",
+            "translation_urdu": "اور ان سے خوبصورت انداز میں کنارہ کشی کیجیے۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "اهْجُرْهُمْ", "urdu": "ان سے کنارہ کشی کیجیے"},
+                {"arabic": "هَجْرًا", "urdu": "خوبصورت انداز میں"},
+                {"arabic": "جَمِيلًا", "urdu": ""}
+            ]
+        },
+        {
+            "ayat_no": 14,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ ذَرْنِي وَ الْمُكَذِّبِينَ",
+            "translation_urdu": "اور مجھے جھٹلانے والوں کے لیے چھوڑ دو۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "ذَرْنِي", "urdu": "مجھے چھوڑ دو"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "الْمُكَذِّبِينَ", "urdu": "جھٹلانے والوں کے لیے"}
+            ]
+        },
+        {
+            "ayat_no": 15,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "أُو۟لِي النِّعْمَةِ",
+            "translation_urdu": "وہ خوشحالی والے لوگ ہیں۔",
+            "word_by_word_translation": [
+                {"arabic": "أُو۟لِي", "urdu": "وہ"},
+                {"arabic": "النِّعْمَةِ", "urdu": "خوشحالی والے لوگ ہیں"}
+            ]
+        },
+        {
+            "ayat_no": 16,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "ذَرْنِي وَ الْمُكَذِّبِينَ",
+            "translation_urdu": "مجھے چھوڑ دو، جھٹلانے والوں کے لیے۔",
+            "word_by_word_translation": [
+                {"arabic": "ذَرْنِي", "urdu": "مجھے چھوڑ دو"},
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "الْمُكَذِّبِينَ", "urdu": "جھٹلانے والوں کے لیے"}
+            ]
+        },
+        {
+            "ayat_no": 17,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "أُو۟لِي النِّعْمَةِ",
+            "translation_urdu": "خوشحالی والے لوگ ہیں۔",
+            "word_by_word_translation": [
+                {"arabic": "أُو۟لِي", "urdu": "وہ"},
+                {"arabic": "النِّعْمَةِ", "urdu": "خوشحالی والے لوگ ہیں"}
+            ]
+        },
+        {
+            "ayat_no": 18,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "وَ أَنَا أَصْبِرُ عَلَيْكَ",
+            "translation_urdu": "اور میں تم پر صبر کروں گا۔",
+            "word_by_word_translation": [
+                {"arabic": "وَ", "urdu": "اور"},
+                {"arabic": "أَنَا", "urdu": "میں"},
+                {"arabic": "أَصْبِرُ", "urdu": "صبر کروں گا"},
+                {"arabic": "عَلَيْكَ", "urdu": "تم پر"}
+            ]
+        },
+        {
+            "ayat_no": 19,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "فَذُوقُوا۟",
+            "translation_urdu": "تو چکھو۔",
+            "word_by_word_translation": [
+                {"arabic": "فَذُوقُوا۟", "urdu": "تو چکھو"}
+            ]
+        },
+        {
+            "ayat_no": 20,
+            "surah_name": "Surah Al-Muzzammil",
+            "arabic": "مَسَّةٌ مِنْهُمْ",
+            "translation_urdu": "یہ ان پر چوٹ ہوگی۔",
+            "word_by_word_translation": [
+                {"arabic": "مَسَّةٌ", "urdu": "یہ چوٹ ہوگی"},
+                {"arabic": "مِنْهُمْ", "urdu": "ان پر"}
+            ]
+        }
+    ]
+}
+]
+}
+
