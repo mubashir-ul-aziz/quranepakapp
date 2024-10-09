@@ -1,7 +1,5 @@
 
 
-
-
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import suratAyats from '../../surah_muzzammil.json';
@@ -41,28 +39,35 @@ console.log(copyayat)
     setAyatNO(e.target.value);
   };
 
-  const hanglecopy = (item) => {
+  const handleCopy = (item) => {
     console.log(item);
-    console.log("copy button clicked");
+    console.log("Copy button clicked");
   
-    // Construct the text you want to copy
+    // Create a table-like format for word_by_word_translation
+    const formattedWordByWordTranslation = item.word_by_word_translation
+      .map(word => `${word.urdu} : ${word.arabic}`)
+      .join("\n");
+  
+    // Format the final text to be copied
     const formattedText = `
-      {
-        "ayat_no": ${item.ayat_no},
-        "surah_name": "${item.surah_name}",
-        "arabic": "${item.arabic}",
-        "translation_urdu": "${item.translation_urdu}",
-        "word_by_word_translation": ${JSON.stringify(item.word_by_word_translation, null, 2)}
-      }
-    `;
+    "ayat_no": ${item.ayat_no},
+    "surah_name": "${item.surah_name}",
+    "arabic": "${item.arabic}",
+    "translation_urdu": "${item.translation_urdu}",
+    "word_by_word_translation": ${formattedWordByWordTranslation}
+  `;
   
-    // Copy the formatted text to the clipboard
-    navigator.clipboard.writeText(formattedText).then(() => {
-      console.log("Copied to clipboard!");
-    }).catch(err => {
-      console.error("Error copying to clipboard: ", err);
-    });
+    // Copy to clipboard
+    navigator.clipboard.writeText(formattedText)
+      .then(() => {
+        console.log("Copied to clipboard!");
+      })
+      .catch(err => {
+        console.error("Error copying to clipboard: ", err);
+      });
   };
+  
+  
 
   return (
     <div className='surah-detail-page' >
@@ -85,13 +90,13 @@ console.log(copyayat)
               <div className='item' key={item.ayat_no}>
                 {console.log(item)} 
                 <div className='dsply_flex copy-btn-div'>
-                <div>{item.ayat_no}</div>
-                <button className='btn-shrink' onClick={() => hanglecopy(item)}>Copy</button>
-                </div><h3 className='text-right'>  {item.arabic}</h3>
-                <p className='text-right'>{item.translation_urdu}</p>
+                <div> Ayat Number: {item.ayat_no}</div>
+                <button className='btn-shrink' onClick={() => handleCopy(item)}>Copy</button>
+                </div><h3 className='text-center'>  {item.arabic}</h3>
+                <p className=' text-center '>{item.translation_urdu}</p>
                 <div className=' word-by-word-meaning card'>
                   {item.word_by_word_translation.map((word, index) => (
-                    <div key={index} className=' item text-right ' style={{ margin: '0' }}>
+                    <div key={index} className=' border-four item text-center ' style={{  }}>
                       {word.arabic} : {word.urdu}
                     </div>
                   ))}

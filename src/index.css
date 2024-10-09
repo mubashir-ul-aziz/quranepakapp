@@ -13,7 +13,7 @@ body {
     flex-wrap: nowrap;
 }
 button {
-    padding: 5px;
+    padding: 9px;
     font-size: 12px;
     font-weight: 700;
     cursor: pointer;
@@ -28,6 +28,19 @@ button {
 }
 .btn-shrink:hover {
     transform: scale(0.8);
+}
+.border-four {
+    position: relative;
+}
+.border-four:before {
+    width: 100%;
+    height: 100%;
+    background: #ff000000;
+    border: 1px solid #ffffff;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 select {
     padding: 10px;
@@ -58,9 +71,13 @@ option {
 .text-right {
     text-align: right;
 }
+.text-center {
+    text-align: center;
+}
 .card {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 17px;
 }
 .item {
@@ -92,20 +109,27 @@ option {
 .surah-detail-page .copy-btn-div {
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 .surah-detail-page .word-by-word-meaning .item {
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     border-right: none;
     border-top: none;
     padding: 5px;
+    width: fit-content;
+    margin: 0 auto;
 }
 .surah-detail-page .word-by-word-meaning {
-    border-right: 1px solid #fff;
+    /* border-right: 1px solid #fff; */
     direction: rtl;
     gap: 0;
 }
 .word-by-word-meaning .item:nth-child(-n+4) {
-    border-top: 1px solid #fff;
+
+}
+.word-by-word-meaning .item:nth-child(1) {
+    /* border-top: 1px solid #fff; */
 }
 .surah-detail-page .title {
     justify-content: space-between;
@@ -119,12 +143,12 @@ a.back-to-home {
 
 @media screen and (max-width: 1024px) {
 .card {
-    grid-template-columns: repeat(3, 1fr); /* Create 4 equal columns */
+    /* grid-template-columns: repeat(3, 1fr); */
 }
 }
 @media screen and (max-width: 767px) {
     .card {
-        grid-template-columns: repeat(2, 1fr); /* Create 4 equal columns */
+        /* grid-template-columns: repeat(2, 1fr);  */
     }
     a.back-to-home {
         padding-top: 20px;
@@ -133,6 +157,6 @@ a.back-to-home {
 }
 @media screen and (max-width: 479px) {
     .card {
-        grid-template-columns: repeat(1, 1fr); /* Create 4 equal columns */
+        /* grid-template-columns: repeat(1, 1fr);  */
     }
 }
