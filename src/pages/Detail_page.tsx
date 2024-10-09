@@ -27,7 +27,6 @@ const DetailPage: React.FC = () => {
   const [ayatNO, setAyatNO] = useState<string>('all');
   const [copyayat, setCopyayat] = useState({})
   const { id } = useParams();  
-console.log(copyayat)
   useEffect(() => {
     if (id) {
       const foundAyatDetail = suratAyats.ayats.find((ayat: Surah) => ayat.id === id);
@@ -40,15 +39,10 @@ console.log(copyayat)
   };
 
   const handleCopy = (item) => {
-    console.log(item);
-    console.log("Copy button clicked");
-  
-    // Create a table-like format for word_by_word_translation
     const formattedWordByWordTranslation = item.word_by_word_translation
       .map(word => `${word.urdu} : ${word.arabic}`)
       .join("\n");
   
-    // Format the final text to be copied
     const formattedText = `
     "ayat_no": ${item.ayat_no},
     "surah_name": "${item.surah_name}",
@@ -88,7 +82,6 @@ console.log(copyayat)
           <div className='card'>
             {(ayatNO === 'all' ? ayatDetail.ayat : ayatDetail.ayat.filter(item => item.ayat_no.toString() === ayatNO)).map((item) => (
               <div className='item' key={item.ayat_no}>
-                {console.log(item)} 
                 <div className='dsply_flex copy-btn-div'>
                 <div> Ayat Number: {item.ayat_no}</div>
                 <button className='btn-shrink' onClick={() => handleCopy(item)}>Copy</button>

@@ -3,7 +3,6 @@ import Surats from '../../surah_all.json'
 
 function Home_page() {
   const navigate= useNavigate()
-  console.log(Surats, 'surats')
   return <div className='all-surah-list'>
     <h1>All Sorah Name</h1>
     <div className='card'>   
