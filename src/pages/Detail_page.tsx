@@ -21,11 +21,27 @@ interface Surah {
   surah: string;
   ayat: Ayat[];
 }
+interface Word {
+  urdu: string;
+  arabic: string;
+}
+interface Item {
+  ayat_no: number;
+  surah_name: string;
+  arabic: string;
+  translation_urdu: string;
+  word_by_word_translation: Word[];
+}
+interface Ayat {
+  ayat_no: number;
+  arabic: string;
+  translation_urdu: string;
+  word_by_word_translation: Word[];
+}
 
 const DetailPage: React.FC = () => {
   const [ayatDetail, setAyatDetail] = useState<Surah | null>(null);
   const [ayatNO, setAyatNO] = useState<string>('all');
-  const [copyayat, setCopyayat] = useState({})
   const { id } = useParams();  
   useEffect(() => {
     if (id) {
@@ -38,18 +54,22 @@ const DetailPage: React.FC = () => {
     setAyatNO(e.target.value);
   };
 
-  const handleCopy = (item) => {
+  function isItem(item: Item | Ayat): item is Item {
+    return (item as Item).surah_name !== undefined;
+  }
+  
+  const handleCopy = (item: Item | Ayat): void => {
     const formattedWordByWordTranslation = item.word_by_word_translation
-      .map(word => `${word.urdu} : ${word.arabic}`)
+      .map((word: Word) => `${word.urdu} : ${word.arabic}`)
       .join("\n");
   
     const formattedText = `
-    "ayat_no": ${item.ayat_no},
-    "surah_name": "${item.surah_name}",
-    "arabic": "${item.arabic}",
-    "translation_urdu": "${item.translation_urdu}",
-    "word_by_word_translation": ${formattedWordByWordTranslation}
-  `;
+      "ayat_no": ${item.ayat_no},
+      "surah_name": "${isItem(item) ? item.surah_name : "N/A"}", // Use type guard here
+      "arabic": "${item.arabic}",
+      "translation_urdu": "${item.translation_urdu}",
+      "word_by_word_translation": ${formattedWordByWordTranslation}
+    `;
   
     // Copy to clipboard
     navigator.clipboard.writeText(formattedText)
@@ -62,7 +82,6 @@ const DetailPage: React.FC = () => {
   };
   
   
-
   return (
     <div className='surah-detail-page' >
       {ayatDetail && (

@@ -5,13 +5,13 @@ import Not_found_page from './pages/Not_found_page';
 
 const App: React.FC = () => {
   return (
-    // <Router>
+    <Router>
       <Routes>
         <Route path="/" element={<Home_page />} />
         <Route path="*" element={<Not_found_page />} />
         <Route path="/surat/:id" element={<DetailPage />} />
       </Routes>
-    // </Router>
+    </Router>
   );
 };
 
