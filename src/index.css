@@ -1,0 +1,172 @@
+/* General Style  */
+div#root {
+    padding: 20px;
+}
+body {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.dsply_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.dsply_flex.gap {
+    gap: 10px;
+}
+.dsply_flex.align_item_center {
+    align-items: center;
+}
+button {
+    padding: 9px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background: darkmagenta;
+    color: white;
+    border-radius: 5px;
+    transition: all 600ms ease-in-out ;
+}
+.btn-shrink {
+
+}
+.btn-shrink:hover {
+    transform: scale(0.8);
+    background: rgb(110, 2, 110);
+}
+.border-four {
+    position: relative;
+}
+.border-four:before {
+    width: 100%;
+    height: 100%;
+    background: #ff000000;
+    border: 1px solid #ffffff;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+select {
+    padding: 5px 10px;
+    border: 2px solid #5b11a5; 
+    border-radius: 4px;
+    background-color: #f4f4f4; 
+    color: #333;
+    font-size: 16px; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 80px;
+}
+select:hover {
+    background-color: #e0e0e0;
+}
+select:focus {
+    border-color: #5b11a5; 
+    box-shadow: 0 0 5px rgba(91, 17, 165, 0.5); 
+}
+option {
+    background-color: #fff; 
+    color: #333;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 17px;
+}
+.item {
+    background: #5b11a5;
+    color: white;
+    padding: 14px;
+    box-sizing: border-box;
+}
+/* Home Page Style  */
+.all-surah-list .item {
+    display: flex;
+    cursor: pointer;
+}
+.all-surah-list .number {
+    padding-right: 5px;
+}
+.all-surah-list .urdu-name {
+    margin-left: auto;
+}
+.surah-detail-page h1 ,
+.all-surah-list h1 {
+    text-align: center;
+    margin: 0;
+}
+.all-surah-list h1 {
+    padding: 30px 0px;
+}
+/* button style  */
+.surah-detail-page .copy-btn-div {
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.surah-detail-page .word-by-word-meaning .item {
+    /* border: 1px solid #fff; */
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.surah-detail-page .word-by-word-meaning {
+    /* border-right: 1px solid #fff; */
+    direction: rtl;
+    gap: 0;
+}
+.word-by-word-meaning .item:nth-child(-n+4) {
+
+}
+.word-by-word-meaning .item:nth-child(1) {
+    /* border-top: 1px solid #fff; */
+}
+.surah-detail-page .title {
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+a.back-to-home {
+    display: block;
+}
+/*** not found page  ***/
+.not-found-component {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+}
+
+
+@media screen and (max-width: 1024px) {
+.card {
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+}
+@media screen and (max-width: 767px) {
+    .card {
+        /* grid-template-columns: repeat(2, 1fr);  */
+    }
+}
+@media screen and (max-width: 479px) {
+    .card {
+        /* grid-template-columns: repeat(1, 1fr);  */
+    }
+}
